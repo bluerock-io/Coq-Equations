@@ -9,7 +9,7 @@
 Require Import Coq.Unicode.Utf8_core Extraction.
 
 Declare ML Module "ltac_plugin".
-Declare ML Module "equations_plugin:coq-equations.plugin".
+Declare ML Module "coq-equations.plugin".
 
 (** A notation scope for equations declarations.
 
